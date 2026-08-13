@@ -1,0 +1,49 @@
+cff-version: 1.2.0
+message: "If you use this work (paper or code), please cite it as below."
+title: "Honey Steganography: Cover-Relative Undetectability and Message-Recovery Deniability over Language Models"
+
+type: software
+authors:
+  - given-names: "Peter"
+    family-names: "Edwards"
+    orcid: "https://orcid.org/0009-0007-4514-2028"
+    affiliation: "Independent Researcher, United Kingdom"
+    email: "peter@dragonstaff.co.uk"
+license: CC-BY-4.0
+date-released: "2026-08-13"
+version: "0.1.0"
+url: "https://doi.org/10.5281/zenodo.21922668"
+repository-code: "https://github.com/peterdragon/steg-crypto-honey"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21922668"
+keywords:
+  - steganography
+  - steganalysis
+  - deniability
+  - honey encryption
+  - language models
+  - provable security
+  - covert channels
+abstract: >-
+  Honey steganography embeds a message in language-model output so that it is
+  undetectable to a passive warden relative to a deployed cover sampler, and
+  message-recovery-deniable under a matching plaintext model: every key yields a
+  DTE draw (true message under the true key; independent decoy under a wrong
+  key). Public key-independent segmentation closes a parse-count oracle; after
+  public extraction the honey layer is classical DTE-then-OTP. Includes proofs
+  and a GPT-2 reference implementation.
+# --- The paper is the preferred citation. -
+preferred-citation:
+  type: article
+  title: "Honey Steganography: Cover-Relative Undetectability and Message-Recovery Deniability over Language Models"
+  authors:
+    - given-names: "Peter"
+      family-names: "Edwards"
+      orcid: "https://orcid.org/0009-0007-4514-2028"
+  year: 2026
+  month: 8
+  publisher: "Zenodo"
+  doi: "10.5281/zenodo.21922668"
+  url: "https://doi.org/10.5281/zenodo.21922668"
+  notes: "Author preprint (CC BY 4.0). Add an arXiv / ePrint identifier here if posted later."

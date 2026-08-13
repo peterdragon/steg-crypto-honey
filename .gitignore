@@ -1,0 +1,15 @@
+# OS / editor cruft
+.DS_Store
+
+# Local LaTeX build output (the tracked preprint PDF is committed directly)
+/build/
+*.aux
+*.log
+*.out
+
+# Demo runtime (never publish)
+demos/.venv/
+demos/__pycache__/
+demos/models/
+demos/data/
+*.pyc

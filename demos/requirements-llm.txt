@@ -1,0 +1,14 @@
+# Optional heavy dependencies for the LLM-backed demos
+# (honey_gpt2_cli.py, gpt2_discop.py, neural_dte.py).
+# The pure-Python demos do NOT need these.
+#
+#   pip install -r requirements-llm.txt
+#   python fetch_models.py         # then pull the weights into models/
+#
+# torch is large and platform-specific; if the default wheel does not suit your
+# machine, install it first per https://pytorch.org/get-started/locally/ and
+# then run this file.
+torch>=2.2
+transformers>=4.40
+huggingface_hub>=0.23
+safetensors>=0.4

@@ -1,0 +1,14 @@
+flowchart LR
+  subgraph plaintext_layer["Plaintext layer — DistilGPT-2 DTE"]
+    A["M ↔ seed"]
+  end
+
+  subgraph honey_layer["Honey layer — secret ks_A"]
+    B["seed ⊕ ks_A ↔ c"]
+  end
+
+  subgraph cover_layer["Cover layer — GPT-2 Discop + public Pub"]
+    C["c ↔ fluent cover T"]
+  end
+
+  A --> B --> C
